@@ -1,0 +1,19 @@
+cd "C:\Users\PRAVEEN KUMAR\OneDrive\Desktop\python1"
+
+# check
+git status
+git remote -v
+
+# if remote not set or wrong, set correct repo URL:
+git remote remove origin
+git remote add origin https://github.com/praveen-kumar0935/calculator.git
+git remote -v
+
+# stage everything changed
+git add .
+
+# commit
+git commit -m "Update all Python files"
+
+# push
+git push -u origin main
