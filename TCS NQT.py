@@ -62,6 +62,7 @@ for i in range(n):
     pk.append(int(input()))
 for i in sorted(pk):
     print(i,end="")
+    # enter the value:5
 
 
 
