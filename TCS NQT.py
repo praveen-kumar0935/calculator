@@ -45,7 +45,7 @@ if count>max_value:
     max_value=count
 print('no of times appear:',max_value)'''
 #hens and goats
-legs=int(input())
+'''legs=int(input())
 heads=int(input())
 
 for i in range(1,heads):
@@ -55,6 +55,14 @@ for i in range(1,heads):
     if (legs == l_count):
         print(g_count,h_count)
         break
+'''
+n=int(input('enter the value:'))
+pk=[]
+for i in range(n):
+    pk.append(int(input()))
+for i in sorted(pk):
+    print(i,end="")
+
 
 
  
